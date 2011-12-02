@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github"
+           fetch="git://github.com/Kernel-Builder/"
+	   review=""/>
+
+  <default revision="ics"
+           remote="github"
+           sync-j="4" />
+
+<!-- Saving this to show how to copy files from the repo @ sync time.
+  <project path="build" name="android_build" remote="github" revision="ics">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+-->
+
+  <project path="manifest" name="manifest" />
+  <project path="AnyKernel" name="AnyKernel" />
+
+</manifest>
