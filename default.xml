@@ -19,7 +19,7 @@
   <project path="AnyKernel" name="AnyKernel" />
 
 
-  <project path="toochains/adduco" name="kb_toolchain_adduco" />
-  <project path="toochains/lacerta" name="kb_toolchain_lacerta" />
+  <project path="toochains/adduco" name="kb_toolchain_adduco" revision="master"/>
+  <project path="toochains/lacerta" name="kb_toolchain_lacerta" revision="master"/>
 
 </manifest>
