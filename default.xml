@@ -19,6 +19,11 @@
   <project path="AnyKernel" name="AnyKernel" />
 
 
+
+
+  <project path="kernels/kernel-qsd8x50" name="tiamat-kernel-QSD8x50" revision="evervolv-tiamat"/>
+  <project path="kernels/kernel-msm7x30" name="tiamat-kernel-MSM7x30" revision="evervolv-tiamat"/>
+
   <project path="toochains/adduco" name="kb_toolchain_adduco" revision="master"/>
   <project path="toochains/lacerta" name="kb_toolchain_lacerta" revision="master"/>
 
